@@ -44,7 +44,7 @@ A classe trabalha com a divisão decimal de cada casa e sua forma em Romano em c
 
 ### Teste unitários
 *Linux ou MacOS:*
-> $ ./mvnw exec:java
+> $ ./mvnw test
 
 *Windows*
 > $ mvnw.cmd test
