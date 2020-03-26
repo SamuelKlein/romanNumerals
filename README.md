@@ -10,7 +10,12 @@ O projeto tem como objetivo converte um numero de 1 a 4999 pra numero romano.
 * Java 8 ou maior
 ### Executação
 Na raiz do projeto Execute o comando
+
+*Linux ou MacOS:*
 > $ ./mvnw exec:java
+
+*Windows*
+> $ mvnw.cmd exec:java
 
 ```
  [...]
@@ -38,7 +43,11 @@ A classe trabalha com a divisão decimal de cada casa e sua forma em Romano em c
 
 
 ### Teste unitários
-> $ ./mvnw test
+*Linux ou MacOS:*
+> $ ./mvnw exec:java
+
+*Windows*
+> $ mvnw.cmd test
 
 ```
 [...]
